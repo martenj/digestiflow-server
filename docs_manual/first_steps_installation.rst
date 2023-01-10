@@ -66,7 +66,7 @@ Finally, simply call `sudo docker-compose up` folder of your setup
 
 .. code-block:: shell
 
-    $ cd digestiflow-server/docker
+    $ cd digestiflow-docker-compose
     $ sudo docker-compose up
     Creating digestiflow-docker-compose_redis_1    ... done
     Creating digestiflow-docker-compose_traefik_1  ... done
@@ -226,12 +226,13 @@ Make sure that you have your virtualenv activated.
     # python manage.py createsuperuser
     [follow on-screen instruction]
 
-Once you have completed this step, you can use the following command for starting up the server.
+Once you have completed this step, you can use the following commands for starting up the server.
 Do this and log in as the super use you just created.
 
 ::
 
     # python manage.py migrate
+    # python manage.py geticons
     # python manage.py collectstatic
     # python manage.py runserver
     [now direct your browser to the displayed URL and login]
