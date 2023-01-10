@@ -71,6 +71,6 @@ Dual Indexing Workflow
     On the case of **Workflow B**, the i5 barcode adapter sequencer is read in reverse orientation.
     In the two sentences above, *forward* and *reverse orientation* are meant with respect to the sequence given in the sequencing chemistry manuals.
 
-    Workflow A is used by NovaSeq 6000, MiSeq, HiSeq 2500, and HiSeq 2000 while workflow B is used by iSeq 100, MiniSeq, NextSeq, HiSeq X, HiSeq 4000, and HiSeq 3000.
+    Workflow A is used by MiSeq, HiSeq 2000, HiSeq 2500, and NovaSeq 6000 while workflow B is used by iSeq 100, MiniSeq, NextSeq 500, NextSeq 550, NextSeq 2000 standalone, HiSeq X, HiSeq 3000, HiSeq 4000, and NovaSeq 6000 with v1.5 reagents kits.
 
     More details can be found `on the Illumina Support website <https://support.illumina.com/downloads/indexed-sequencing-overview-15057455.html>`_.

@@ -61,6 +61,7 @@ class Migration(migrations.Migration):
                             ("MiSeq", "MiSeq"),
                             ("MiniSeq", "MiniSeq"),
                             ("NextSeq500", "NextSeq 500"),
+                            ("NextSeq2000", "NextSeq 2000"),
                             ("HiSeq1000", "HiSeq 1000"),
                             ("HiSeq1500", "HiSeq 1500"),
                             ("HiSeq2000", "HiSeq 2000"),
@@ -79,7 +80,7 @@ class Migration(migrations.Migration):
                     models.CharField(
                         choices=[
                             ("A", "MiSeq, HiSeq 2000/2500, NovaSeq 6000"),
-                            ("B", "iSeq, MiniSeq, NextSeq, HiSeq 3000/4000, HiSeq X"),
+                            ("B", "iSeq, MiniSeq, NextSeq 500, NextSeq 2000, HiSeq 3000/4000, HiSeq X"),
                         ],
                         default="A",
                         help_text="Workflow to use for dual indexing",

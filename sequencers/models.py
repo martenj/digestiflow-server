@@ -21,6 +21,9 @@ MACHINE_MODEL_MINISEQ = "MiniSeq"
 #: Key value for machine model NextSeq500
 MACHINE_MODEL_NEXTSEQ500 = "NextSeq500"
 
+#: Key value for machine model NextSeq2000
+MACHINE_MODEL_NEXTSEQ500 = "NextSeq2000"
+
 #: Key value for machine model HiSeq1000
 MACHINE_MODEL_HISEQ1000 = "HiSeq1000"
 
@@ -48,6 +51,7 @@ MACHINE_MODELS = (
     (MACHINE_MODEL_MISEQ, "MiSeq"),
     (MACHINE_MODEL_MINISEQ, "MiniSeq"),
     (MACHINE_MODEL_NEXTSEQ500, "NextSeq 500"),
+    (MACHINE_MODEL_NEXTSEQ2000, "NextSeq 2000"),
     (MACHINE_MODEL_HISEQ1000, "HiSeq 1000"),
     (MACHINE_MODEL_HISEQ1500, "HiSeq 1500"),
     (MACHINE_MODEL_HISEQ2000, "HiSeq 2000"),
@@ -68,7 +72,7 @@ INDEX_WORKFLOW_B = "B"
 #: at any time.
 INDEX_WORKFLOWS = (
     (INDEX_WORKFLOW_A, "MiSeq, HiSeq 2000/2500, NovaSeq 6000"),
-    (INDEX_WORKFLOW_B, "iSeq, MiniSeq, NextSeq, HiSeq 3000/4000, HiSeq X"),
+    (INDEX_WORKFLOW_B, "iSeq, MiniSeq, NextSeq 500/2000, HiSeq 3000/4000, HiSeq X"),
 )
 
 
